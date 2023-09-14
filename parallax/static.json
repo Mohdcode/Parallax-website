@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "src": "/(.*).(html|css|js|png|jpg|jpeg|gif|ico|svg|txt)",
+        "dest": "/$1"
+      },
+      {
+        "handle": "filesystem"
+      }
+    ]
+  }
+  
